@@ -1,5 +1,7 @@
+#!/usr/bin/python3
+
 import os,  sys, re, requests, smtplib, ssl
-#
+
 url = 'https://status.digitalocean.com/api/v2/scheduled-maintenances.json'
 
 smtp_server = os.environ.get('SMTP_ADDR','smtp.gmail.com')
