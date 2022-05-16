@@ -2,7 +2,7 @@
 
 WORKDIR="$PWD"
 
-chmod u+x ./install.sh ./status.py
+chmod u+x ./install.sh ./status.py ./test.py
 
 { crontab -l | sed -e '/\/status.py/d' -e '/mon wkday /d'; \
 echo \
