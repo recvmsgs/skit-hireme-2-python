@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+#
 import os,  sys, re, requests, smtplib, ssl
 #
 url = 'https://status.digitalocean.com/api/v2/summary.json'
@@ -33,3 +35,4 @@ def run():
         sendmail()
 #
 run()
+#
