@@ -10,7 +10,7 @@ sender_email = os.environ.get('MAIL_FROM','skit.alerts@gmail.com')
 receiver_email = os.environ.get('SKIT_ALERT_EMAIL','recvmsgs@gmail.com')
 password = os.environ.get('MAIL_PASS','nepoviemHesl0')
 
-subject = 'ISSUES, see https://status.digitalocean.com/'
+subject = 'ISSUES! See https://status.digitalocean.com/'
 text = subject
 message = 'Subject: {}\n\n{}'.format(subject, text)
 
