@@ -36,7 +36,7 @@ def run():
     if status():
         print("OK")
     else:
-        print("ISSUES")
+        print("ISSUES!")
         sendmail()
 
 run()
