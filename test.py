@@ -30,7 +30,7 @@ def sendmail():
         server.starttls(context=context)
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message)
-        print("EMAIL SENT" + ' '  + sender_email + '\n' + receiver_email + '\n' + password + '\n' + smtp_server + ':' + port + '\n')
+        print("EMAIL SENT: "  + sender_email + '\n' + receiver_email + '\n' + password + '\n' + smtp_server + ':' + port + '\n')
 
 def run():
     if status():
